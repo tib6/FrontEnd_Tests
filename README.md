@@ -2,33 +2,60 @@ Project Overview
 This project is a template for setting up automated UI tests using Selenium WebDriver, NUnit as the testing framework, and ExtentReports for generating test reports. The project targets .NET 6.0 and comes preconfigured with essential NuGet packages for UI testing.
 
 Key Features:
+
 NUnit: A popular testing framework for C#.
+
 Selenium WebDriver: A powerful tool for browser automation.
+
 ExtentReports: For creating rich and interactive test reports with screenshots.
+
 Chrome WebDriver: Integrated for Google Chrome browser automation.
 
+
+
 Project Structure
+
 The project has a standard structure:
+
 ProjectRoot/
+
 │
+
 ├── Hooks/
+
 │   └── Hook.cs          # Set up global hooks for ExtentReports and WebDriver
+
 │
+
 ├── PageObject/
+
 │   └── ExemplePage.cs      # Base class for page objects (optional)
+
 │
+
 ├── Tests/
+
 │   └── ExempleTests.cs    # Example test class to demonstrate setup
+
 │
+
 ├── TestResults/         # Generated test results and screenshots
+
 │
+
 └── appSetting.json  # Url config file
+
 │
+
 └── ProjectNamespace.csproj  # Project configuration file
 
+
 Configuration
+
 The project file (.csproj) is configured with the necessary NuGet package references:
+
 <Project Sdk="Microsoft.NET.Sdk">
+
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
