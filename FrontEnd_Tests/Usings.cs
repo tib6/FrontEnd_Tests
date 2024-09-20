@@ -1,0 +1,9 @@
+global using NUnit.Framework.Interfaces;
+global using AventStack.ExtentReports;
+global using OpenQA.Selenium;
+global using OpenQA.Selenium.Chrome;
+global using AventStack.ExtentReports.Reporter.Configuration;
+global using System.Runtime.CompilerServices;
+global using FrontEnd_Tests.Base;
+global using FrontEnd_Tests.Hooks;
+global using FrontEnd_Tests.PageObjects;
